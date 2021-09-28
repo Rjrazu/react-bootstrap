@@ -1,12 +1,10 @@
-
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Newses from './componants/Newses/Newses';
+import Newspaper from './componants/Newspaper/Newspaper';
 
 function App() {
   return (
     <div className="App">
-      <Newses />
+      <Newspaper></Newspaper>
     </div>
   );
 }
